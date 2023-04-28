@@ -1,1 +1,2 @@
 # MyClashRule
+MyClashRule
