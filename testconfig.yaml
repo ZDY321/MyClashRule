@@ -1,171 +1,28 @@
 mixed-port: 7890
-#---------------------------------------------------#
 allow-lan: false
 mode: Rule
 log-level: silent
 external-controller: 127.0.0.1:60000
-
-# 节点配置文件统一存放在 ./profiles/proxies/ 目录中
-
-
-## 代理集
-
 proxy-providers:
-# 从链接导入的配置文件（雨燕机场70G不限时）
-#  foo:
-#    type: http
-#    path: ./profiles/proxies/foo.yaml
-#    url: https://dy.ikuncloud.com/api/v1/client/subscribe?token=879ca61fcba1636a0f2196274cce0ce8
-#    interval: 3600 
-#    filter: 'Hong Kong' # 筛选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
-# # 从链接导入的配置文件（乘风机场50G一个月---20230519到期）
-#  foo1:
-#    type: http
-#    path: ./profiles/proxies/foo1.yaml
-#    url: https://aricke.com/api/v1/client/subscribe?token=6fae2b0731f60c14e17b27ee74abbb24
-#    interval: 3600 
-#    filter: 'Hong Kong' # 删选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
-# # 从链接导入的配置文件（高速店机场6T/月---20231019到期---速度快，但节点要少）
-#  foo2:
-#    type: http
-#    path: ./profiles/proxies/foo2.yaml
-#    url: https://liangyuandian.club/api/v1/client/subscribe?token=7d026728582965af793ecf2ee3035029
-#    interval: 3600 
-#    filter: 'Hong Kong' # 删选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
-# # 从链接导入的配置文件（nanoport机场2T/月---20231014到期）
-#  foo3:
-#    type: http
-#    path: ./profiles/proxies/foo3.yaml
-#    url: https://subv5.nanoport.xyz/api/v1/client/subscribe?token=99594d9869c11a961d983e9ce2fc933c
-#    interval: 3600 
-#    filter: 'Hong Kong' # 删选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
-
-# # 从链接导入的配置文件（赔钱机场100G/月---20240123到期---每日10%）
-#  foo4:
-#    type: http
-#    path: ./profiles/proxies/foo5.yaml
-#    url: https://pqjc.site/api/v1/client/subscribe?token=40f983109bcced8acf4f178e9f7b209f
-#    interval: 3600 
-#    filter: 'Hong Kong' # 删选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
-# 从链接导入的配置文件（一元机场500G/月---20230819到期）
- foo5:
+ foo:
    type: http
-   path: ./profiles/proxies/foo6.yaml
-   url: https://sub.id9.cc/sub?target=clash&new_name=true&url=https%3A%2F%2Fsub1.smallstrawberry.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D5a98ed18d7d9a50ec3f1b6ff68659f64&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&include=%E9%A6%99%E6%B8%AF&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false
+   path: ./profiles/proxies/foo.yaml
+   url: https://sub.xeton.dev/sub?target=clash&new_name=true&url=https%3A%2F%2Fsub1.smallstrawberry.com%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D5a98ed18d7d9a50ec3f1b6ff68659f64&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&tfo=false&scv=false&fdn=false&sort=false
    interval: 3600 
-   filter: '香港' # 删选出含有该关键词的节点
+   filter: '新加坡|香港|美国' # 删选出含有该关键词的节点
    health-check:
      enable: true
      url: http://www.gstatic.com/generate_204
      interval: 900
-
-# # 从链接导入的配置文件（一日机场300G/月---20250214到期）0514前流量用完---
-#  foo6:
-#    type: http
-#    path: ./profiles/proxies/foo4.yaml
-#    url: https://sub.lianpi.xyz/api/v1/client/subscribe?token=6afb0b217414a6977f06a02b2ad76e83
-#    interval: 3600 
-#    filter: 'Hong Kong' # 删选出含有该关键词的节点
-#    health-check:
-#      enable: true
-#      url: http://www.gstatic.com/generate_204
-#      interval: 900
-
- # 从本地导入的 clash 配置文件
- # bar:
- #   type: file
- #   path: ./profiles/proxies/bar.yaml
- #   health-check:
- #     enable: true
- #     url: http://www.gstatic.com/generate_204
- #     interval: 600
-
-
-## 策略组
-
 proxy-groups:
   - name: PROXY
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 900
     use: # 引入proxy-provider 使用 use 关键字
-     # - foo
-     # - foo1
-     # - foo2
-     # - foo3
-     # - foo4
-     - foo5
+     - foo
     proxies:
      - DIRECT
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-  # - name: Netflix
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 900
-  #   use:
-  #     - BLSG
-
-
-
-
-
-
-## clash-rules项目提供的规则集
-
 rule-providers:
   reject: # 广告域名列表
     type: http
@@ -245,10 +102,6 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
     path: ./profiles/rules/lancidr.yaml
     interval: 86400
-
-
-## 分流规则
-
 rules:
   - DOMAIN-KEYWORD,orientool.top,DIRECT
   - PROCESS-NAME,v2ray,DIRECT
