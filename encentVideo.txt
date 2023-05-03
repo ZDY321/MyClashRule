@@ -1,0 +1,6 @@
+# 内容：TencentVideo 腾讯视频
+# 数量：2条
+# 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/TencentVideo.yaml
+payload:
+  - DOMAIN-SUFFIX,v.smtcdns.com
+  - DOMAIN-SUFFIX,vv.video.qq.com
