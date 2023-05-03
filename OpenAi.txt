@@ -1,0 +1,7 @@
+# 内容：OpenAi
+# 数量：3条
+# 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/OpenAi.yaml
+payload:
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,openai.com
