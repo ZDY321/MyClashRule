@@ -1,4 +1,5 @@
 # Google China
+# 来源：https://github.com/cj7cj/clash_convert/blob/main/GoogleCN.list
 payload:
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
