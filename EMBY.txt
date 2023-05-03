@@ -1,5 +1,6 @@
 # 内容：Emby Proxy
 # 比较全面的各家 Emby 地址
+# 来自https://github.com/cutethotw/ClashRule/blob/main/Emby.yaml
 payload:
 #  - PROCESS-NAME,electron.exe
   - DOMAIN-KEYWORD,emby
