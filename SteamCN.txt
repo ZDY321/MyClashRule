@@ -1,6 +1,7 @@
 # 内容：SteamCN
 # 数量：15条
 # 来源：https://github.com/cj7cj/clash_convert/blob/main/SteamCN.list
+# 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/SteamCN.yaml
 payload:
   - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dl.steam.clngaa.com
@@ -13,6 +14,7 @@ payload:
   - DOMAIN,steampowered.com.8686c.com
   - DOMAIN,steamstatic.com.8686c.com
   - DOMAIN,wmsjsteam.com
+  - DOMAIN,xz.pphimalayanrt.com
   - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,steamchina.com
   - DOMAIN-SUFFIX,steamcontent.com
