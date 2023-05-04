@@ -9,12 +9,19 @@ payload:
   - DOMAIN-KEYWORD,4837.emby.ml
   - DOMAIN-KEYWORD,hgc.bili.rip
   - DOMAIN-KEYWORD,bili.bili.rip
+  - DOMAIN-KEYWORD,play.acemby.org
   - DOMAIN-KEYWORD,cdn.acemby.org
+  - DOMAIN-KEYWORD,cflix.acemby.org
+  - DOMAIN-KEYWORD,emby.zoxi.org
   - DOMAIN-KEYWORD,embyplus.org
   - DOMAIN-KEYWORD,film.goodisp.org
   - DOMAIN-KEYWORD,kr.imetyou.top
   - DOMAIN-KEYWORD,cf.imetyou.top
   - DOMAIN-KEYWORD,emby.imetyou.top
   - DOMAIN-KEYWORD,emby.wtf
-  - DOMAIN-KEYWORD,embyplus.org
-  - DOMAIN-KEYWORD,film.goodisp.org
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
