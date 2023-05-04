@@ -1,7 +1,7 @@
 # 内容：SteamCN
-# 数量：15条
-# 来源：https://github.com/cj7cj/clash_convert/blob/main/SteamCN.list
-# 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/SteamCN.yaml
+# 数量：16条
+# 来源：https://github.com/cj7cj/clash_convert/blob/main/SteamCN.list ---15条
+# 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/SteamCN.yaml ---16条
 payload:
   - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dl.steam.clngaa.com
