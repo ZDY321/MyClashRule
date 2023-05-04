@@ -1,1 +1,5 @@
-
+payload:
+  - PROCESS-NAME,electron.exe
+  - DOMAIN-KEYWORD,emby
+  - DOMAIN-KEYWORD,odysseyplus
+  - DOMAIN-KEYWORD,emby.wtf
