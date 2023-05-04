@@ -1,1 +1,8 @@
-
+payload:
+  # - PROCESS-NAME,electron.exe
+  - DOMAIN-KEYWORD,cf.emby.ml
+  - DOMAIN-KEYWORD,cfca.emby.ml
+  - DOMAIN-KEYWORD,ca.emby.ml
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,
