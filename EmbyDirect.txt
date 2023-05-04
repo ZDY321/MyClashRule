@@ -7,6 +7,9 @@ payload:
   - DOMAIN-KEYWORD,embyvip
   - DOMAIN-KEYWORD,1.loseremby.org
   - DOMAIN-KEYWORD,4837.emby.ml
+  - DOMAIN-KEYWORD,cf.emby.ml
+  - DOMAIN-KEYWORD,cfca.emby.ml
+  - DOMAIN-KEYWORD,ca.emby.ml
   - DOMAIN-KEYWORD,hgc.bili.rip
   - DOMAIN-KEYWORD,bili.bili.rip
   - DOMAIN-KEYWORD,play.acemby.org
@@ -19,9 +22,10 @@ payload:
   - DOMAIN-KEYWORD,cf.imetyou.top
   - DOMAIN-KEYWORD,emby.imetyou.top
   - DOMAIN-KEYWORD,emby.wtf
-  - DOMAIN-KEYWORD,
-  - DOMAIN-KEYWORD,
-  - DOMAIN-KEYWORD,
-  - DOMAIN-KEYWORD,
-  - DOMAIN-KEYWORD,
-  - DOMAIN-KEYWORD,
+  - DOMAIN-KEYWORD,mjjemby
+  - DOMAIN-KEYWORD,direct.nebula-emby.com
+  - DOMAIN-KEYWORD,jmsooo
+  - DOMAIN-KEYWORD,embymv.tk
+  - DOMAIN-KEYWORD,embytv.cf
+  - DOMAIN-KEYWORD,cc.ccemby.tk
+  - DOMAIN-KEYWORD,emby.agon.cf
