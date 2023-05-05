@@ -1,4 +1,5 @@
 # 需要直连的常见软件列表applications
+# 来源：https://github.com/Loyalsoldier/clash-rules/blob/release/applications.txt
 payload:
   - PROCESS-NAME,hysteria
   - PROCESS-NAME,hysteria.exe
