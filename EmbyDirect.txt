@@ -1,3 +1,4 @@
+# 自用修改
 payload:
   # - PROCESS-NAME,electron.exe
   - DOMAIN-KEYWORD,misakaf
