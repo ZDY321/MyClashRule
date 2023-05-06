@@ -31,3 +31,4 @@ payload:
   - DOMAIN-KEYWORD,embytv.cf
   - DOMAIN-KEYWORD,cc.ccemby.tk
   - DOMAIN-KEYWORD,emby.agon.cf
+  - DOMAIN-KEYWORD,emby.eu
