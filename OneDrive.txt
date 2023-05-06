@@ -5,8 +5,8 @@ payload:
   - DOMAIN-KEYWORD,my.sharepoint.com
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-  - USER-AGENT-REGEX,^OneDrive.*
-  - USER-AGENT-REGEX,^OneDriveiOSApp.*
+  - USER-AGENT-REGEX,^OneDrive.*$
+  - USER-AGENT-REGEX,^OneDriveiOSApp.*$
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
