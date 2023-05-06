@@ -1,11 +1,12 @@
 # OneDrive
+# 转换过来的7、8行要注意。在 rule-providers 中，USER-AGENT 规则类型不被支持，需要将其转换为 USER-AGENT-REGEX 类型的规则
 # 来源：https://github.com/cj7cj/clash_convert/blob/main/OneDrive.list
 payload:
   - DOMAIN-KEYWORD,my.sharepoint.com
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-  - USER-AGENT,OneDrive*
-  - USER-AGENT,OneDriveiOSApp*
+  - USER-AGENT-REGEX,^OneDrive.*
+  - USER-AGENT-REGEX,^OneDriveiOSApp.*
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
