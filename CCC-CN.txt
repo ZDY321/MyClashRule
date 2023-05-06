@@ -1,5 +1,6 @@
 ## > CDN-CN
 # 360云
+# UPDATED: 2021-07-29 23:25
 # 来源：https://github.com/LM-Firefly/Rules/blob/master/CCC-CN.list
 payload:
   - IP-CIDR,101.197.0.0/16,no-resolve
