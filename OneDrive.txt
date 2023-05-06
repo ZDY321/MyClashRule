@@ -1,19 +1,29 @@
 # OneDrive
-# 转换过来的7、8行要注意。在 rule-providers 中，USER-AGENT 规则类型不被支持，需要将其转换为 USER-AGENT-REGEX 类型的规则
-# 来源：https://github.com/cj7cj/clash_convert/blob/main/OneDrive.list
+# UPDATED: 2023-04-25 02:08:28
+# 注意：在 rule-providers 中，USER-AGENT 规则类型不被支持，USER-AGENT-REGEX 类型的规则貌似也不能用
+# 来源：https://github.com/cj7cj/clash_convert/blob/main/OneDrive.list 
+# 来源：https://github.com/Mythologyli/ZJU-Rule/blob/master/Clash/Providers/Ruleset/OneDrive.yaml
+# 来源：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/OneDrive/OneDrive.yaml
 payload:
+  # - USER-AGENT,OneDrive*
+  # - USER-AGENT,OneDriveiOSApp*
   - DOMAIN-KEYWORD,my.sharepoint.com
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
-  - USER-AGENT-REGEX,^OneDrive.*$
-  - USER-AGENT-REGEX,^OneDriveiOSApp.*$
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,1drv.ms
   - DOMAIN-SUFFIX,livefilestore.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,onedrive.co
+  - DOMAIN-SUFFIX,onedrive.co.uk
   - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,onedrive.eu
   - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,onedrive.net
+  - DOMAIN-SUFFIX,onedrive.org
   - DOMAIN-SUFFIX,photos.live.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
