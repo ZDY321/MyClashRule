@@ -7,7 +7,7 @@
 payload:
   # - USER-AGENT,OneDrive*
   # - USER-AGENT,OneDriveiOSApp*
-  - DOMAIN-KEYWORD,my.sharepoint.com
+  # - DOMAIN-KEYWORD,my.sharepoint.com
   - PROCESS-NAME,OneDrive
   - PROCESS-NAME,OneDriveUpdater
   - DOMAIN-KEYWORD,1drv
@@ -25,8 +25,8 @@ payload:
   - DOMAIN-SUFFIX,onedrive.net
   - DOMAIN-SUFFIX,onedrive.org
   - DOMAIN-SUFFIX,photos.live.com
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
+  # - DOMAIN-SUFFIX,sharepoint.com
+  # - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skydrive.wns.windows.com
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
