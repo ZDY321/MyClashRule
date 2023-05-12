@@ -59,8 +59,8 @@ payload:
   - DOMAIN-SUFFIX,public-trust.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
+  # - DOMAIN-SUFFIX,sharepoint.com
+  # - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
