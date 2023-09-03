@@ -36,3 +36,7 @@ payload:
   - DOMAIN-KEYWORD,pilipili.emby77.org
   - DOMAIN-KEYWORD,pilipili-cf.emby77.org
   - DOMAIN-KEYWORD,emby.bangumi.ca
+  - IP-CIDR,85.239.235.232/32,no-resolve
+  - IP-CIDR,103.177.137.228/32,no-resolve
+  - IP-CIDR,172.18.0.2/32,no-resolve
+  - IP-CIDR,140.238.10.97/32,no-resolve
