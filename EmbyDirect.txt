@@ -2,6 +2,7 @@
 # UPDATED: 2023-05-06 15:21 
 payload:
   - PROCESS-NAME,electron.exe
+  - PROCESS-NAME,emby.theater.exe
   - DOMAIN-KEYWORD,misakaf.org
   - DOMAIN-KEYWORD,emby.lzlz.cc
   - DOMAIN-KEYWORD,nijigem
