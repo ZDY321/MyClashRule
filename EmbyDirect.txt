@@ -2,17 +2,15 @@
 # UPDATED: 2023-05-06 15:21 
 payload:
   # - PROCESS-NAME,electron.exe
-  - DOMAIN-KEYWORD,misakaf
+  - DOMAIN-KEYWORD,misakaf.org
   - DOMAIN-KEYWORD,emby.lzlz.cc
   - DOMAIN-KEYWORD,nijigem
   - DOMAIN-KEYWORD,studyfun
   - DOMAIN-KEYWORD,embyvip
   - DOMAIN-KEYWORD,1.loseremby.org
-  - DOMAIN-KEYWORD,4837.emby.ml
-  - DOMAIN-KEYWORD,cf.emby.ml
-  - DOMAIN-KEYWORD,cfca.emby.ml
-  - DOMAIN-KEYWORD,ca.emby.ml
-  - DOMAIN-KEYWORD,hgc.bili.rip
+  - DOMAIN-KEYWORD,emby.ml
+  - DOMAIN-KEYWORD,xmsl.org
+  - DOMAIN-KEYWORD,bili.rip
   - DOMAIN-KEYWORD,bili.bili.rip
   - DOMAIN-KEYWORD,play.acemby.org
   - DOMAIN-KEYWORD,cdn.acemby.org
@@ -26,9 +24,15 @@ payload:
   - DOMAIN-KEYWORD,emby.wtf
   - DOMAIN-KEYWORD,mjjemby
   - DOMAIN-KEYWORD,direct.nebula-emby.com
-  - DOMAIN-KEYWORD,jmsooo
+  - DOMAIN-KEYWORD,jmsooo.com
+  - DOMAIN-KEYWORD,jms1.emby.pro
   - DOMAIN-KEYWORD,embymv.tk
   - DOMAIN-KEYWORD,embytv.cf
   - DOMAIN-KEYWORD,cc.ccemby.tk
   - DOMAIN-KEYWORD,emby.agon.cf
   - DOMAIN-KEYWORD,emby.eu
+  - DOMAIN-KEYWORD,ohhhh.org
+  - DOMAIN-KEYWORD,us.zerodisk.site
+  - DOMAIN-KEYWORD,pilipili.emby77.org
+  - DOMAIN-KEYWORD,pilipili-cf.emby77.org
+  - DOMAIN-KEYWORD,emby.bangumi.ca
