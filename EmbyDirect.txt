@@ -1,7 +1,7 @@
 # 自用修改|走代理或不走都是此名单
 # UPDATED: 2023-05-06 15:21 
 payload:
-  # - PROCESS-NAME,electron.exe
+  - PROCESS-NAME,electron.exe
   - DOMAIN-KEYWORD,misakaf.org
   - DOMAIN-KEYWORD,emby.lzlz.cc
   - DOMAIN-KEYWORD,nijigem
