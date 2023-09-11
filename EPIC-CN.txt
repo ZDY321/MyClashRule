@@ -1,6 +1,6 @@
 # 内容：Epic
 # 数量：5条
-# UPDATED: 2023-04-25 16:12
+# UPDATED: 2023-09-11 21:00:00
 # 来源：https://github.com/cj7cj/clash_convert/blob/main/Epic.list
 payload:
   - DOMAIN-SUFFIX,epicgames.com
