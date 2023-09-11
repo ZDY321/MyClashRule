@@ -1,5 +1,5 @@
 # 自用修改|走代理或不走都是此名单
-# UPDATED: 2023-05-06 15:21 
+# UPDATED: 2023-09-11 21:00:00
 payload:
   - PROCESS-NAME,electron.exe
   - PROCESS-NAME,emby.theater.exe
