@@ -10,8 +10,7 @@ payload:
   - PROCESS-NAME,naive.exe
   - PROCESS-NAME,privoxy
   - PROCESS-NAME,privoxy.exe
-  - PROCESS-NAME,proxifier
-  - PROCESS-NAME,proxifier
+  # - PROCESS-NAME,proxifier
   - PROCESS-NAME,shadowsocks
   - PROCESS-NAME,shadowsocks.exe
   - PROCESS-NAME,shadowsocksr
@@ -40,17 +39,17 @@ payload:
   - PROCESS-NAME,udp2raw.exe
   - PROCESS-NAME,udp2raw_mp
   - PROCESS-NAME,udp2raw_mp.exe
-  - PROCESS-NAME,v2ray
-  - PROCESS-NAME,v2ray.exe
+  # - PROCESS-NAME,v2ray
+  # - PROCESS-NAME,v2ray.exe
   - PROCESS-NAME,xray
   - PROCESS-NAME,xray.exe
-  - PROCESS-NAME,Surge
-  - PROCESS-NAME,Surge 2
-  - PROCESS-NAME,Surge 3
-  - PROCESS-NAME,Surge 4
-  - PROCESS-NAME,Surge%202
-  - PROCESS-NAME,Surge%203
-  - PROCESS-NAME,Surge%204
+  # - PROCESS-NAME,Surge
+  # - PROCESS-NAME,Surge 2
+  # - PROCESS-NAME,Surge 3
+  # - PROCESS-NAME,Surge 4
+  # - PROCESS-NAME,Surge%202
+  # - PROCESS-NAME,Surge%203
+  # - PROCESS-NAME,Surge%204
   - PROCESS-NAME,BitComet
   - PROCESS-NAME,QQLive
   - PROCESS-NAME,QQLive.exe
@@ -61,25 +60,27 @@ payload:
   # - PROCESS-NAME,NeatDM.exe
   - PROCESS-NAME,NetTransport
   - PROCESS-NAME,NetTransport.exe
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,ThunderVIP.exe
-  - PROCESS-NAME,Transmission
-  - PROCESS-NAME,WebTorrent
-  - PROCESS-NAME,WebTorrent.exe
+  # - PROCESS-NAME,Thunder
+  # - PROCESS-NAME,Thunder.exe
+  # - PROCESS-NAME,ThunderVIP.exe
+  # - PROCESS-NAME,Transmission
+  # - PROCESS-NAME,WebTorrent
+  # - PROCESS-NAME,WebTorrent.exe
   # - PROCESS-NAME,aria2
   # - PROCESS-NAME,aria2.exe
   # - PROCESS-NAME,aria2c
   # - PROCESS-NAME,aria2c.exe
-  # - PROCESS-NAME,fdm
-  # - PROCESS-NAME,fdm.exe
-  - PROCESS-NAME,qBittorrent
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,transmission-daemon.exe
-  - PROCESS-NAME,transmission-qt.exe
-  - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,uTorrent.exe
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,fdm.exe
+  # - PROCESS-NAME,qBittorrent
+  # - PROCESS-NAME,qbittorrent.exe
+  # - PROCESS-NAME,transmission-daemon.exe
+  # - PROCESS-NAME,transmission-qt.exe
+  # - PROCESS-NAME,uTorrent
+  # - PROCESS-NAME,uTorrent.exe
   # - PROCESS-NAME,xdm
   # - PROCESS-NAME,xdm.exe
-  # - PROCESS-NAME,xdman
-  # - PROCESS-NAME,xdman.exe
+  - PROCESS-NAME,xdman
+  - PROCESS-NAME,xdman.exe
+  - PROCESS-NAME,proxifier.exe
+  # - PROCESS-NAME,qbittorrent-nox
