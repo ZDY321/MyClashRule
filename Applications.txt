@@ -1,3 +1,4 @@
+# UPLOAD:2023.09.11 20:51:00
 # 需要直连的常见软件列表applications
 # 来源：https://github.com/Loyalsoldier/clash-rules/blob/release/applications.txt
 payload:
