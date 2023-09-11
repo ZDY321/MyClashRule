@@ -1,4 +1,5 @@
 # 内容：OpenAi
+# UPLOAD:2023-09-11 21:05:00
 # 数量：13条
 # 来源：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Providers/Ruleset/OpenAi.yaml
 payload:
