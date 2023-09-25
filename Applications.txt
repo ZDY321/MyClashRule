@@ -72,8 +72,8 @@ payload:
   # - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,fdm
   - PROCESS-NAME,fdm.exe
-  # - PROCESS-NAME,qBittorrent
-  # - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,qBittorrent
+  - PROCESS-NAME,qbittorrent.exe
   # - PROCESS-NAME,transmission-daemon.exe
   # - PROCESS-NAME,transmission-qt.exe
   # - PROCESS-NAME,uTorrent
@@ -83,4 +83,4 @@ payload:
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
   - PROCESS-NAME,proxifier.exe
-  # - PROCESS-NAME,qbittorrent-nox
+  - PROCESS-NAME,qbittorrent-nox
