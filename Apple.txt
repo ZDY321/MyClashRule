@@ -1,4 +1,5 @@
 # 来源：https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
+# Apple 在中国大陆可直连的域名列表
 payload:
   - '+.a1.mzstatic.com'
   - '+.a2.mzstatic.com'
