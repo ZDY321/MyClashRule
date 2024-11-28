@@ -49,9 +49,6 @@ ruleset=🎯 全球直连,[]GEOIP,LAN
 ruleset=🎯 全球直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
 
-
-
-
 ;设置分组标志位：代理组名称`select或url-test    `.*: 表示加入你订阅中所有节点
 ;符合ruleset规则的节点：[]+ruleset的规则
 custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]DIRECT`.*
@@ -80,10 +77,6 @@ custom_proxy_group=📺 巴哈姆特`select`[]🚀 节点选择`[]🎯 全球直
 
 enable_rule_generator=true
 overwrite_original_rules=true
-
 ;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
-
 ;luck
-
-
 ~~~
